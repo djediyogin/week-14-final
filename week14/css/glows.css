@@ -1,0 +1,20 @@
+.glows {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    animation: glows 2s linear;
+    box-shadow: 0 0 10px 5px white;
+}
+
+@keyframes glows {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

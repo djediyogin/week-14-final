@@ -1,0 +1,20 @@
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    animation: shootingStar 2s linear;
+}
+
+@keyframes shootingStar {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(300px, 200px);
+        opacity: 0;
+    }
+}

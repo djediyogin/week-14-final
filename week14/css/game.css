@@ -1,0 +1,24 @@
+#game {
+    text-align: center;
+}
+
+#game button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#game button:hover {
+    background-color: #dddddd;
+}
+
+#game div {
+    margin-top: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,65 @@
+<!--
+    Joshua Laureles
+    2023.12.13
+    Final Programming Project (CSC 102)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua's Programming Project</title>
+    <!-- Linking CSS files for main styles, music page specific styles, and magic styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/magic.css">
+    <!-- Linking JavaScript files -->
+    <script src="js/main.js" defer></script>
+    <script src="js/music.js" defer></script>
+    <script src="js/magic.js" defer></script>
+</head>
+<body>
+    <!-- Placeholder for the header -->
+    <div id="header-placeholder"></div>
+    <main>
+        <!-- About Me section -->
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Joshua Laureles, a student at the University of Advancing Technology. I'm currently enrolled in the Digital Maker and Fabrication degree program, where I'm learning about various aspects of programming, web development, and digital fabrication. This program is a unique blend of design, engineering, and software development, which allows me to create digital models that can be brought to life using 3D printers, CNC machines, and other fabrication tools.
+            </p>
+            <br>
+            <h2>About This Project</h2>
+            <p>
+                This website is my final project for the CSC 102 course. It showcases the skills and knowledge I've gained throughout the course and my degree program. The website includes a game of Cyber Craps, a music player, and a palindrome checker. Each of these features demonstrates my understanding of HTML, CSS, and JavaScript. Additionally, the design and layout of the website reflect my knowledge of user interface design, which is a crucial part of the Digital Maker and Fabrication program.
+            </p>
+            <br>
+            <h2>About CSC 102</h2>
+            <p>
+                CSC 102 is a foundational course at the University of Advancing Technology that introduces students to the fundamentals of programming and web development. The course covers HTML, CSS, and JavaScript, and it provides students with the opportunity to apply their knowledge through hands-on projects. This course has been instrumental in my understanding of how to build interactive and responsive websites. It has also laid the groundwork for more advanced topics in my degree program, such as 3D modeling and digital fabrication.
+            </p>
+            <br>
+            <h2>About Digital Maker and Fabrication Degree</h2>
+            <p>
+                The Digital Maker and Fabrication degree at the University of Advancing Technology is a unique program that combines elements of design, engineering, and software development. Students in this program learn how to create digital models and bring them to life using various fabrication tools. The program emphasizes hands-on learning, with students regularly working on projects that allow them to apply their knowledge in practical ways. As a student in this program, I have gained a deep understanding of the digital fabrication process, from initial concept to final product.
+            </p>
+        </section>
+
+        <!-- Music section -->
+        <section id="music">
+            <h2 alignment="center">Alien Spaceship UFO by Daniel Simion</h2><br>
+            <!-- Music controls -->
+            <div class="controls">
+                <button id="playPauseButton" title="Play the music">Play</button>
+            </div>
+            <!-- Volume control -->
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5" title="Adjust the volume">
+            <!-- Audio element for the music -->
+            <audio id="spaceMusic" src="/audio/space.wav" preload="auto"></audio>
+        </section>
+    </main>
+    <!-- Placeholder for the footer -->
+    <div id="footer-placeholder"></div>
+</body>
+</html>

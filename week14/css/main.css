@@ -1,0 +1,114 @@
+/* Import the Atari Kids font */
+@font-face {
+    font-family: 'Atari Kids';
+    src: url('/fonts/atari-kids.otf') format('truetype');
+}
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('/img/space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+header {
+    background-color: #33333300;
+    color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-family: 'Atari Kids', Arial, sans-serif;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #dddddd; 
+}
+
+h1, h2 {
+    font-family: 'Atari Kids', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 5% 5% 5%;
+}
+
+main section {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+footer {
+    background-color: #33333300;
+    color: #f4f4f47b;
+    text-align: center;
+    padding: 10px 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+input {
+    text-shadow: none;
+}
+
+#palindrome-input {
+    text-shadow: none;
+}
+
+#logo {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    filter: invert(1);
+}
+
+button {
+    text-shadow: none;
+}
+
+ol {
+    padding-left: 20px;
+}

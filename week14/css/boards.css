@@ -1,0 +1,23 @@
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    color: #1e6dd8;
+    margin-bottom: 20px;
+}
+
+p, li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
